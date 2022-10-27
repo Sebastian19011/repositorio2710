@@ -1,0 +1,13 @@
+.cuadrito {
+    /* Propiedades decorativas */
+    border: solid 1px black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    /* Propiedades que hacen el "Problema" */
+    width: 100px;
+    height: 110px;
+    /* Solucion */
+    overflow: hidden;
+}
